@@ -1,0 +1,122 @@
+package javalearn;
+import java.util.Scanner;
+
+public class learnofarray {
+    public static void main(String[] args) {
+//        int x = 2*3+1;
+//        int[] numbers = new int[x];
+//        numbers[0] = 27;
+//        numbers[3] = -6;
+//        
+//        if (numbers[3] < 0) {
+//            System.out.println("Elemen 3 adalah negative");
+//        }
+//        
+//        // default int dan double -> 0
+//        double[] hasil = new double[5];
+//        hasil[2] = 3.2;
+//        hasil[4] = -0.7;
+//        System.out.println(hasil[4]);
+//        // Array, index dimulai dari 0
+//        // line ke 20 artinya array nya dimulai dari 0 1 2 3 4
+//        
+//        
+//        
+//        // defaultnya -> false
+//        boolean[] bl = new boolean[6];
+//        bl[3] = true;
+//        
+//        for (int i=0; i<hasil.length; i++) {
+//            System.out.println(hasil[i]);
+
+//        Scanner sc = new Scanner(System.in);
+//        
+//        System.out.println("Berapa Hari Temperaturnya?");
+//        int days = sc.nextInt();
+//        int[] temps = new int[days];
+//        int sum = 0;
+//        for (int i=0; i<days; i++) {
+//            System.out.println("Hari ke "+ (i+1) + "temp=");
+//            temps[i] = sc.nextInt();
+//            sum += temps[i];
+//            
+//        }
+//        
+//        double average = (double) sum/days;
+//        int count = 0;
+//        for (int i=0; i<days; i++) {
+//            if (temps[i]>average) {
+//                count++;
+//            }
+//            
+//        System.out.printf("Rata2 temp=%.1f\n", average);
+//        System.out.println(count + " hari diatas rata2");
+        
+        // Array gk bisa di compare, hasilnya tetap false (misal dgn if())
+//        int[] num = {10, 12, 13, 15, 41};
+//        System.out.println(Arrays.toString(num));
+        
+        
+        // YG SERING DIGUNAKAN --> TIPE DATA OBJEK
+        //ArrayList atau List
+        //ArrayList<Bike> bi = new ArrayList<>();
+        //bi.add(new Bike());
+        
+        // Array parameter
+        int a = 7;    // <--  *Ini penjelasan line 81an
+        int b = 35;
+        int temp = a;
+        
+        a = b;
+        b = temp;
+        System.out.println(a + "" + b);
+        
+        // kenapa line dibawah ini ada tanda seru..
+        // karena di method ditambahkan parameter
+        semantic();
+        
+        } //end main
+    
+        /*
+         void tidak ada return vcalue
+         method ada 
+    */
+        
+                              //semantic reference
+                                     //|
+                                     //V
+        private static void semantic(int a) {
+            int x = 5;
+            int y = x;
+            // jika kita pake semantic reference
+            // maka isi dari lokal variable "a" dibawah ini 
+            // akan mengubah variable di Global variable
+            a = 17;
+            y = 12;
+            // dan isi dari variable yg dirubah,
+            // kalau di print, maka akan tampil data terupdate
+            
+        }
+    
+    
+        public static double tes(int[] number) {
+            int sum = 0;
+            for (int i=0; i<number.length; i++) {
+                sum += number[i];
+            }
+            
+            //return itu mengembalikan nilai 
+            return (double) sum/number.length;
+            
+            // Contoh Method
+//            
+//        public static Bike testing() {
+//            return new Bike();
+//        }
+//            
+
+        public static double[] tes(int[] number) {
+            
+        }
+    } //end class
+}
