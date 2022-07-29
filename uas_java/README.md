@@ -4,7 +4,6 @@ KURNIA RAIHAN ARDIAN
 
 Ini adalah sebauh jawaban dari soal no 1 dan 5
 
-untuk soal no 1 dan 2 ada di folder uas_inheritance
 
 jawaban soal no 1
  Inheritance adalah sebuah konsep pewarisan sifat berupa variabel 
@@ -14,4 +13,11 @@ jawaban soal no 1
   induk kelas dan Subclass sebagai anak kelas. Konsep tersebut merupakan sebuah percabangan 
  dari sebuah class (Superclass) yang memiliki sifat umum menjadi sebuah class(Subclass) 
   yang memiliki sifat lebih spesifik.
+  
+  jawaban soal no 2
+  
+  Polymorphism adalah suatu object dapat memiliki berbagai bentuk, sebagai object dari class sendiri atau object dari superclassnya.
+
+Overloading: Penggunaan satu nama untuk beberapa method yang berbeda (beda parameter)
+Overriding: terjadi ketika deklarasi method subclass dengan nama dan parameter yang sama dengan method dari superclassnya.
  
