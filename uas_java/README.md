@@ -2,6 +2,8 @@ UAS PROGRAMMING II
 KURNIA RAIHAN ARDIAN
 2122.01.0018
 
+
+Untuk Pak ipang jika ingin melakukan pengetesan lakukan dengan folder terpisah pak terimakasih
 Ini adalah sebauh jawaban dari soal no 1 dan 5
 
 
