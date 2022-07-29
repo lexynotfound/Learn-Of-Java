@@ -1,3 +1,9 @@
+/*
+  UAS PROGRAMMING II
+  KURNIA RAIHAN ARDIAN
+  2122.01.0018
+ */
+
 package com.example.app;
 
 /* 

@@ -1,4 +1,4 @@
-/**
+/*
  * Soal no. 3 perulangan bilangan genap dari 1 - 100
  */
 public class perulangan {

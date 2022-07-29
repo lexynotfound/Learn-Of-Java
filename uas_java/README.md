@@ -21,3 +21,4 @@ jawaban soal no 1
 Overloading: Penggunaan satu nama untuk beberapa method yang berbeda (beda parameter)
 Overriding: terjadi ketika deklarasi method subclass dengan nama dan parameter yang sama dengan method dari superclassnya.
  
+Untuk Pak ipang jika ingin melakukan pengetesan lakukan dengan folder terpisah pak terimakasih
